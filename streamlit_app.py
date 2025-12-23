@@ -14,7 +14,7 @@ BASE_URL = os.getenv("BASE_URL", "http://127.0.0.1:8000")
 PROD_API = f"{BASE_URL.rstrip('/')}/products/"
 
 st.set_page_config(page_title="Gamestore", layout="wide")
-st.title("Gamastore — Browse & Add Products (demo)")
+st.title("Gamastore — Browse & Add Products")
 
 # ---------------- Session-state triggers for modals ----------------
 if "edit_product" not in st.session_state:
